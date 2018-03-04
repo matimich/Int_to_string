@@ -81,7 +81,7 @@ char *IntToString(int *number)
         exit(EXIT_FAILURE);
     }
 
-    fprintf(new_int,"\n%s",string);
+    fprintf(new_int,"%s\n",string);
     fclose(new_int);
 
     #endif // SAVE_TO_FILE_INT
@@ -144,7 +144,7 @@ char *UIntToString(unsigned int *number)
         exit(EXIT_FAILURE);
     }
 
-    fprintf(uint_new,"\n%s",string);
+    fprintf(uint_new,"%s\n",string);
     fclose(uint_new);
 
     #endif // SAVE_TO_FILE_INT

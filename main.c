@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    int a =-10;
-    unsigned int b =15;
+    int a =-100;
+    unsigned int b =105;
 
-    printf("%s\n",IntToString(&a));   //display result
-    printf("%s",UIntToString(&b));   //display result
+    printf("\n%s\n",IntToString(&a));   //display result
+    printf("\n%s\n",UIntToString(&b));   //display result
 
 
     return 0;
